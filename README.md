@@ -1,137 +1,169 @@
-<div align="center">
-
 # 📈 Stock Price Prediction & Market Analysis Dashboard
-### ⚡ AI-Powered Financial Forecasting with Modern Web Integration
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=950&lines=🚀+Stock+Price+Prediction+System;📊+Interactive+Market+Analysis+Dashboard;⚡+React+%2B+TypeScript+%2B+Python+Backend;📈+Financial+Data+Visualization+%26+Forecasting" alt="Typing SVG" />
-
-<br>
-
-<img src="https://img.shields.io/badge/Project-Stock%20Prediction-0A192F?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Frontend-React%20%2B%20TypeScript-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/Backend-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/UI-Tailwind%20CSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-<img src="https://img.shields.io/badge/Status-Completed-2EA043?style=for-the-badge&logo=checkmarx&logoColor=white" />
-
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Stock%20Price%20Prediction&fontSize=35&fontColor=ffffff&animation=fadeIn&fontAlignY=40" />
-
-</div>
+A full-stack financial analytics application designed to **analyze stock market trends, visualize historical data, and support price prediction workflows** using modern web technologies and Python-based data processing.
 
 ---
 
-# 🌌 Project Vision
+## 🧭 Overview
 
-> **"Transforming stock market data into actionable forecasting insights."**
+This project presents a structured approach to understanding stock market behavior through:
 
-This project is a modern **Stock Price Prediction and Market Analysis Dashboard** built to analyze stock performance, visualize market trends, and support forecasting through intelligent financial data workflows.
+- Interactive **data visualization**
+- Time-series based **trend analysis**
+- Prediction-oriented **financial insights**
+- A modern **dashboard interface**
 
-It combines:
-
-- 📊 **Stock market trend visualization**
-- 🤖 **Prediction-oriented analysis**
-- 🌐 **Modern frontend dashboard**
-- 🐍 **Python backend support**
-- ⚡ **Real-world fintech project architecture**
+It is built as a **real-world portfolio project** combining frontend engineering with data-driven backend logic.
 
 ---
 
-# 🎯 Problem Statement
+## 🎯 Objective
 
-The stock market produces massive volumes of time-series data every day.  
-Understanding price movement patterns manually is difficult, especially for beginners and students learning financial analytics.
+To design a system that simplifies stock market analysis by:
 
-### ❗ The challenge:
-Stock data is:
-- highly dynamic
-- noisy and volatile
-- difficult to interpret without visualization and trend analysis
-
-### ✅ The solution:
-This project provides a structured system to:
-- analyze historical stock performance
-- visualize stock movement
-- support predictive modeling and trend understanding
-- deliver an interactive stock dashboard experience
+- transforming raw stock data into meaningful insights  
+- enabling users to explore price trends visually  
+- supporting forecasting and analytical understanding  
+- delivering a clean and responsive dashboard experience  
 
 ---
 
-# ✨ Key Highlights
+## ⚙️ Tech Stack
 
-<div align="center">
+### Frontend
+- React  
+- TypeScript  
+- Tailwind CSS  
+- Vite  
 
-| 🚀 Feature | 💡 Description |
-|-----------|----------------|
-| 📈 Stock Price Prediction | Forecasts stock movement trends |
-| 📊 Market Analysis Dashboard | Visual insights into stock performance |
-| 🌐 Interactive Frontend | Built with modern React architecture |
-| 🐍 Python Backend | Supports logic and analytics |
-| ⚡ Responsive UI | Smooth and clean user experience |
-| 📉 Trend Visualization | Helps interpret stock behavior |
-| 🧠 Time-Series Focus | Suitable for ML/finance learning |
+### Backend
+- Python  
 
-</div>
-
----
-
-# 🛠️ Tech Stack
-
-<div align="center">
-
-## ⚙️ Technologies Used
-
-</div>
-
-<table align="center">
-<tr>
-<td align="center" width="180">
-<img src="https://skillicons.dev/icons?i=react" width="55"/><br><br>
-<b>React</b><br>
-Modern frontend framework
-</td>
-<td align="center" width="180">
-<img src="https://skillicons.dev/icons?i=ts" width="55"/><br><br>
-<b>TypeScript</b><br>
-Typed frontend development
-</td>
-<td align="center" width="180">
-<img src="https://skillicons.dev/icons?i=tailwind" width="55"/><br><br>
-<b>Tailwind CSS</b><br>
-Responsive UI styling
-</td>
-<td align="center" width="180">
-<img src="https://skillicons.dev/icons?i=python" width="55"/><br><br>
-<b>Python</b><br>
-Backend / data processing
-</td>
-<td align="center" width="180">
-<img src="https://skillicons.dev/icons?i=vite" width="55"/><br><br>
-<b>Vite</b><br>
-Fast frontend tooling
-</td>
-</tr>
-</table>
-
-<br>
-
-### 📚 Additional Tools
-- ShadCN UI
-- Data Visualization Libraries
-- Financial / Time-Series Analysis Logic
+### Data & Analysis
+- Time-Series Processing  
+- Financial Data Handling  
+- Visualization Logic  
 
 ---
 
-# 🧩 Project Structure
+## 🧱 Architecture
+
+```text
+User Interface (React + TypeScript)
+            │
+            ▼
+Frontend Dashboard (Charts, Inputs, UI)
+            │
+            ▼
+Backend Layer (Python Processing Logic)
+            │
+            ▼
+Stock Data → Analysis → Prediction Output
+```
+
+---
+
+## 🔍 Core Features
+
+- Stock price trend visualization  
+- Interactive dashboard UI  
+- Data-driven analysis workflow  
+- Modular project structure  
+- Clean and responsive design  
+- Scalable architecture for future ML integration  
+
+---
+
+## 📊 Use Cases
+
+- Learning **stock market analysis**
+- Demonstrating **time-series data handling**
+- Building **financial dashboards**
+- Showcasing **full-stack + data projects**
+- Portfolio project for **ML / Data / Dev roles**
+
+---
+
+## 📁 Project Structure
 
 ```bash
 Stock_Price_Prediction/
 │
-├── backend/                 # Python backend / analysis logic
-├── public/                  # Static assets
-├── src/                     # React frontend source code
-├── index.html               # Frontend entry
-├── package.json             # Project dependencies
-├── tailwind.config.ts       # Tailwind configuration
-├── vite.config.ts           # Vite configuration
-└── README.md                # Project documentation
+├── backend/              # Python logic and data processing
+├── src/                  # React frontend source
+├── public/               # Static assets
+├── index.html            # Entry point
+├── package.json          # Dependencies
+├── tailwind.config.ts    # Styling configuration
+├── vite.config.ts        # Build configuration
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone Repository
+
+```bash
+git clone https://github.com/animesh6532/Stock_Price_Prediction.git
+cd Stock_Price_Prediction
+```
+
+---
+
+### Run Frontend
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+### Run Backend
+
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python app.py
+```
+
+---
+
+## 📈 Future Enhancements
+
+- Integration with real-time stock APIs  
+- Advanced forecasting models (LSTM / ARIMA)  
+- Sentiment analysis from financial news  
+- Multi-stock comparison dashboard  
+- Buy/Sell signal indicators  
+- Cloud deployment  
+
+---
+
+## 📌 Project Value
+
+This project demonstrates:
+
+- Full-stack development capability  
+- Financial data understanding  
+- Clean UI/UX design principles  
+- Real-world project structuring  
+- Scalable architecture for ML systems  
+
+---
+
+## 👨‍💻 Author
+
+**Animesh Sahoo**
+
+GitHub: https://github.com/animesh6532
+
+---
+
+## ⭐ Note
+
+If you find this project useful, consider giving it a star.
